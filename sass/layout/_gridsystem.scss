@@ -1,0 +1,23 @@
+.content-container {
+  display: grid;
+  height: 100%;
+  grid-template-areas:
+    "landing-content"
+    "about-content"
+    "menu-content"
+    "footer-content";
+}
+.landing-content {
+  grid-area: landing-content;
+}
+.about-content {
+  grid-area: about-content;
+}
+.menu-content {
+  grid-area: menu-content;
+}
+.footer.content {
+  grid-area: footer-content;
+}
+
+

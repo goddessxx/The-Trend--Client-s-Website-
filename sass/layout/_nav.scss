@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.2em;
+}
+.brand {
+  display: flex;
+  margin-left: 0.5em;
+}
+.logo {
+  width: 8em;
+}
+.fa-brands {
+  font-size: 1.9em;
+  margin-top: 0.8em;
+  color: #18978f;
+  padding-right: 0.3em;
+}
+.fa-brands:hover {
+  color: #ecb390;
+}
+.brand-name {
+  margin-top: 1.5em;
+}
+.socials {
+  margin-right: 0.5em;
+}

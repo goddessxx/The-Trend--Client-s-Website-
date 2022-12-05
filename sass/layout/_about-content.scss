@@ -1,0 +1,24 @@
+.about-content {
+  height: 100%;
+  margin: 0 0.7em 0 0.7em;
+  p {
+    padding-top: 1em;
+    line-height: 1.8;
+  }
+}
+a {
+  color: #18978f;
+  text-decoration: none;
+}
+a:hover {
+  color: #ecb390;
+}
+.about-image {
+  padding-top: 2.8em;
+}
+.about-image img {
+  width: 20em;
+}
+.about-content .fa-solid {
+  margin-top: 1em;
+}

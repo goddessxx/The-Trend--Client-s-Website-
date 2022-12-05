@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catering Request</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Timmana&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8d81142740.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/animon/dist/animon.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="form-body">
+    <nav class="animonItem" data-effect="fadeIn">
+      <div class="brand">
+        <img src="images/logo.png" alt="Company logo" class="logo" />
+        <a class="brand-name" href="index.html">The Trend417</a>
+      </div>
+      <div class="socials">
+        <i
+          class="fa-brands fa-square-facebook"
+          onclick=location.href="https://www.facebook.com/thetrend417"></i>
+        <i
+          class="fa-brands fa-square-instagram"
+          onclick=location.href="https://www.instagram.com/thetrend417/"></i>
+      </div>
+    </nav>
+    <header class="form-header animonItem" data-effect="fadeIn">
+      <h1>Let Us Cater At Your Next Event!</h1>
+    </header>
+    <main class="animonItem" data-effect="fadeIn">
+      <form action="index.html">
+        <ul class="form-list">
+          <li><input type="text" placeholder="First Name" required /></li>
+          <li><input type="text" placeholder="Last Name" required /></li>
+          <li><input type="email" placeholder="Email Address" required /></li>
+          <li><input type="text" placeholder="Location" required /></li>
+          <li>
+            <input type="text" placeholder="Amount Of People" required />
+          </li>
+          <li>
+            <textarea
+              placeholder="Additional Information"
+              cols="38"
+              rows="5"
+            ></textarea>
+          </li>
+          <li><button type="submit">Send Request</button></li>
+        </ul>
+      </form>
+      <figure class="form-image">
+        <img src="images/form-images/trailer-img.jpg" alt="" />
+      </figure>
+    </main>
+    <footer class="footer-content"><p>&copy; 2022 The Trend417</p></footer>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/animon/dist/animon.iife.js"
+    ></script>
+    <script type="text/javascript">
+      Animon.animon();
+    </script>
+  </body>
+</html>

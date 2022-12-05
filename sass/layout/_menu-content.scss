@@ -1,0 +1,21 @@
+.menu-content {
+  height: 100vh;
+  .menu-header {
+    margin-top: 5em;
+  }
+}
+.menu {
+  display: flex;
+  margin-top: 4em;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.menu-items {
+  box-shadow: 0.5em 0.5em 20em #56bbf1;
+  border-radius: 4%;
+  margin-bottom: 1em;
+}
+.menu-items img {
+  width: 10em;
+  height: 13em;
+}

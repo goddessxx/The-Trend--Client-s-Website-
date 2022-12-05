@@ -1,0 +1,26 @@
+@use "mixins";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  @include mixins.theme;
+}
+img {
+  border-radius: 4%;
+}
+button {
+  border-radius: 4%;
+  border-style: none;
+  padding: 0.5em 1em 0 1em;
+  margin-top: 1em;
+}
+button:hover {
+  background-color: #73777b;
+  animation: squeeze 2s infinite;
+}
+.fa-solid {
+  font-size: 2em;
+  color: #56bbf1;
+  animation: arrowAnimation 3s infinite;
+}

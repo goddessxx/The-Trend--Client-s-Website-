@@ -1,0 +1,28 @@
+@mixin theme {
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  text-align: center;
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    -webkit-text-stroke: 0.4px #eeeeee;
+  }
+  h1 {
+    color: #b983ff;
+  }
+  h2 {
+    color: #ade792;
+  }
+  h3,
+  a {
+    color: #56bbf1;
+  }
+  p {
+    color: #7eca9c;
+  }
+  button {
+    background-color: #56bbf1;
+    color: #96f7d2;
+  }
+}
