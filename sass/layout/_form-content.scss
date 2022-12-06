@@ -11,7 +11,8 @@ input {
   margin-bottom: 2em;
   padding-left: 0.3em;
   border-radius: 4%;
-  border-style: none;
+  border: .2em solid #7eca9c;
+  background: transparent;
 }
 textarea {
   padding-left: 0.3em;
@@ -19,7 +20,7 @@ textarea {
   border-style: none;
 }
 .form-image {
-  padding-top: 2em;
+  padding-top: 1em;
   img {
     width: 20em;
   }
